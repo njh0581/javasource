@@ -13,7 +13,7 @@ public class Student {
   // 속성을 변경시킬 수 있도록 메소드로 작성
   void changeAddr() {}
 
-  void chaneHp() {}
+  void changeHp() {}
 
   // 생성자(constructor)
   // 클래스를 객체로 생성할 때 필수로 필요

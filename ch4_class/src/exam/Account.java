@@ -14,4 +14,20 @@ public class Account {
     this.owner = owner;
     this.balance = balance;
   }
+
+  //예금하다
+  //doposit
+  int deposit(int money) {
+    balance = balance + money;
+    return balance;
+    //return balance += money;
+  }
+
+  //출금하다
+  //withdraw
+  int withdraw(int money) {
+    balance = balance - money;
+    return balance;
+    //return balance -= money;
+  }
 }
