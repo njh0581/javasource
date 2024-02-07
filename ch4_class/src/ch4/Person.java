@@ -2,7 +2,27 @@ package ch4;
 
 public class Person {
 
+  //멤버변수에 final 이 붙으면 초기화 반드시 해야함
+  //수정불가
+  //상수 개념
+
+  //클래스에 final 이 붙은 경우 - 상속금지
+  //메소드에 final이 붙으면 오버라이딩 금지
+
   private String name;
+  private final String nation = "Korea";
+
+  //객체끼리 공유하는 상수
+  //상수는 대문자로 표현
+  private static final double PI = 3.141592;
+
+  public static double getPi() {
+    return PI;
+  }
+
+  public Person(String name, String nation) {
+    this.name = name;
+  }
 
   public String getName() {
     return name;

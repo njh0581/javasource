@@ -23,11 +23,48 @@ public class Account {
     //return balance += money;
   }
 
+  public String getAccountNum() {
+    return accountNum;
+  }
+
+  public void setAccountNum(String accountNum) {
+    this.accountNum = accountNum;
+  }
+
+  public String getOwner() {
+    return owner;
+  }
+
+  public void setOwner(String owner) {
+    this.owner = owner;
+  }
+
+  public int getBalance() {
+    return balance;
+  }
+
+  public void setBalance(int balance) {
+    this.balance = balance;
+  }
+
   //출금하다
   //withdraw
   int withdraw(int money) {
     balance = balance - money;
     return balance;
     //return balance -= money;
+  }
+
+  @Override
+  public String toString() {
+    return (
+      "Account [accountNum=" +
+      accountNum +
+      ", owner=" +
+      owner +
+      ", balance=" +
+      balance +
+      "]"
+    );
   }
 }
