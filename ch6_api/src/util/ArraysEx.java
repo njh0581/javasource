@@ -47,11 +47,11 @@ public class ArraysEx {
     //Collection<E> : 객체 타입
     //int > integer
     Integer arr3[] = { 27, 55, 15, 6, 9, 75 };
-    Arrays.sort(arr3,Comparator.reverseOrder);
+    // Arrays.sort(arr3,Comparator.reverseOrder);
 
-    String[] strArr = ("cat", "dog", "lion", "tirer,","zoo"
-    );
-    Arrays.sort(strArr);
-
+    // String[] strArr = ("cat", "dog", "lion", "tirer,","zoo"
+    // );
+    // Arrays.sort(strArr);
+  }}
 
 
